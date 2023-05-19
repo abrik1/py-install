@@ -3,7 +3,7 @@
 
 # what is install?
 
-> ### `install` is a command line utility for GNU based OSes which copies a file with specific permissions
+> ### `install` is a command line utility for GNU based OSes which copies a file with specific permissions. It is useful to make package managers.
 
 # syntax:-
 
