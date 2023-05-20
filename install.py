@@ -10,7 +10,7 @@ from stat import S_IREAD as read_user
 from stat import S_IWRITE as write_user
 from stat import S_IEXEC as exec_user
 
-permissions = [exec_all, write_all, read_all, rwe_all, read_user, write_user, exec_user]
+permissions = [exec_all, write_all, read_all, rwe_all, rwe_user, read_user, write_user, exec_user]
 
 def run_tests(TargetFile, Destination, Permissions):
     if isfile(TargetFile) == True:
