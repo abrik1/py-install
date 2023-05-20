@@ -15,7 +15,7 @@ install(TargetFile, Destination, Permissions)
 - `Destination` is the target destination(it should be a directory) where `TargetFile` will be copied
 - `Permissions` is the specific permissions supported by `os.chmod()`
 
-> __Note__:- There are only specific permissions supported:- [exec_all, write_all, read_all, rwe_all, read_user, write_user, exec_user]
+> __Note__:- There are only specific permissions supported:- `[exec_all, write_all, read_all, rwe_all, read_user, write_user, exec_user]`
 > 
 
 <h4> Permission explanations:- </h4>
